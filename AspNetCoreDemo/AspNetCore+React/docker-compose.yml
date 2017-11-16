@@ -1,0 +1,7 @@
+version: '2'
+services:
+  grapecity-demo:
+    build: .
+    image: grapecity-demo-react
+    ports:
+      - 8080:80
